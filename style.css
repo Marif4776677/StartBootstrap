@@ -41,18 +41,15 @@ header nav a:hover {
   background: url(./assets/header-bg.jpg) no-repeat;
   background-size: 100%;
 }
-#welcome .imgbox {
-  width: 100%;
-}
-#welcome .textbox {
+#welcome .box {
   height: 800px;
 }
-#welcome .textbox h1 {
+#welcome .box h1 {
   color: #ffffff;
   font-size: 48px;
   font-style: italic;
 }
-#welcome .textbox h2 {
+#welcome .box h2 {
   color: #ffffff;
   font-size: 90px;
   font-weight: 700;
