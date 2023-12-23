@@ -26,13 +26,13 @@ header .menu {
 header .menu .imgbox {
   width: 140px;
 }
-header nav a {
+header .menu nav a {
   margin-left: 30px;
   letter-spacing: 2px;
   color: #ffffff;
   transition: 0.2s;
 }
-header nav a:hover {
+header .menu nav a:hover {
   cursor: pointer;
   color: #ffc800;
 }
@@ -42,7 +42,7 @@ header nav a:hover {
   background-size: 100%;
 }
 #welcome .box {
-  height: 800px;
+  height: 700px;
 }
 #welcome .box h1 {
   color: #ffffff;
@@ -55,7 +55,7 @@ header nav a:hover {
   font-weight: 700;
   margin: 40px 0;
 }
-#welcome .btn {
+#welcome .box .btn {
   border-radius: 8px;
   font-size: 22px;
   font-weight: 700;
@@ -64,6 +64,6 @@ header nav a:hover {
   background-color: #ffc800;
   transition: 0.2s;
 }
-#welcome .btn:hover {
+#welcome .box .btn:hover {
   background-color: #d9aa00;
 }/*# sourceMappingURL=style.css.map */
