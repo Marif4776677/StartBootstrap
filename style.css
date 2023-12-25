@@ -1,6 +1,5 @@
 body {
-  font-family: "Dosis", sans-serif;
-  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -30,8 +29,10 @@ header .menu .imgbox {
   width: 140px;
 }
 header .menu nav a {
+  font-size: 0.995rem;
+  font-weight: 300;
   margin-left: 30px;
-  letter-spacing: 2px;
+  letter-spacing: 0.0625em;
   color: #ffffff;
   transition: 0.2s;
 }
@@ -41,8 +42,10 @@ header .menu nav a:hover {
 }
 
 #welcome {
-  background: url(./assets/header-bg.jpg) no-repeat;
+  padding: 50px 0;
+  background: url(./assets/header-bg.jpg) no-repeat bottom;
   background-size: 100%;
+  background-clip: content-box;
   padding: 50px 0;
 }
 #welcome .box {
@@ -50,24 +53,64 @@ header .menu nav a:hover {
 }
 #welcome .box h1 {
   color: #ffffff;
-  font-size: 48px;
+  font-size: 36px;
+  font-weight: 500;
   font-style: italic;
 }
 #welcome .box h2 {
   color: #ffffff;
-  font-size: 90px;
+  font-size: 72px;
   font-weight: 700;
   margin: 40px 0;
 }
 #welcome .box .btn {
   border-radius: 8px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   color: #ffffff;
-  padding: 20px 50px;
+  padding: 20px 40px;
   background-color: #ffc800;
   transition: 0.2s;
 }
 #welcome .box .btn:hover {
   background-color: #d9aa00;
+}
+
+#services {
+  padding: 50px 0;
+}
+#services .textbox h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+#services .textbox h3 {
+  font-size: 18px;
+  color: #6c757d;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0 0 50px;
+}
+#services .icon {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  font-size: 64px;
+  color: #ffffff;
+  background-color: #ffc800;
+}
+#services .col-md-4 .textbox {
+  margin: 0 10px;
+}
+#services .col-md-4 .textbox h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+#services .col-md-4 .textbox p {
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 20px 0;
 }/*# sourceMappingURL=style.css.map */
