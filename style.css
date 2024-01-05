@@ -229,4 +229,65 @@ header .menu nav a:hover {
   border: solid #e9ecef;
   border-radius: 50%;
   border-width: 5px;
+}
+
+#team {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+#team .textbox h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+#team .textbox h1:hover {
+  cursor: text;
+}
+#team .textbox h3 {
+  font-size: 14px;
+  color: #6c757d;
+  font-weight: 500;
+  font-style: italic;
+  margin: 0 0 50px;
+}
+#team .box .imgbox {
+  width: 200px;
+  border: solid #e9ecef;
+  border-radius: 50%;
+  border-width: 8px;
+  margin-bottom: 20px;
+}
+#team .box .textbox h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px 0 10px;
+}
+#team .box .textbox h4 {
+  color: #6c757d;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+#team .box .icon, #team .box .iconf {
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  padding: 12px;
+  border-radius: 50%;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+#team .box .iconf {
+  padding: 12px 14px 12px 14px;
+}
+#team .last {
+  padding: 0 150px;
+}
+#team .last p {
+  color: #6c757d;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 40px;
 }/*# sourceMappingURL=style.css.map */
