@@ -9,6 +9,9 @@ a:hover {
   color: black;
 }
 
+.imgbox {
+  overflow: hidden;
+}
 .imgbox img {
   width: 100%;
 }
@@ -180,4 +183,50 @@ header .menu nav a:hover {
   line-height: 1.5;
   font-style: italic;
   padding-bottom: 20px;
+}
+
+#about {
+  padding: 100px 0;
+}
+#about .textbox h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+#about .textbox h1:hover {
+  cursor: text;
+}
+#about .textbox h3 {
+  color: #6c757d;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0 0 50px;
+}
+#about .box {
+  display: flex;
+  align-items: center;
+}
+#about .box .textbox {
+  width: 400px;
+}
+#about .box .textbox h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px 0 10px;
+}
+#about .box .textbox p {
+  color: #6c757d;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+#about .imgbox {
+  margin: 0 40px;
+  width: 150px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: solid #e9ecef;
+  border-radius: 50%;
+  border-width: 5px;
 }/*# sourceMappingURL=style.css.map */
