@@ -47,10 +47,11 @@ header .menu nav a:hover {
 
 #welcome {
   padding: 50px 0;
-  background: url(./assets/header-bg.jpg) no-repeat bottom;
-  background-size: 100%;
-  background-clip: content-box;
-  padding: 50px 0;
+  background-image: url(../assets/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
 }
 #welcome .box {
   height: 700px;
@@ -310,9 +311,60 @@ header .menu nav a:hover {
   margin: 0 70px;
   width: 180px;
 }
+#socials .imgbox img {
+  cursor: pointer;
+}
 #socials .facebook {
   width: 150px;
 }
 #socials .google, #socials .ibm {
   width: 110px;
+}
+
+#contact {
+  padding: 100px 0;
+  background-color: #212529;
+  background-image: url(../assets/map-image.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+#contact .box .textbox h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+#contact .box .textbox h1:hover {
+  cursor: text;
+}
+#contact .box .textbox h3 {
+  color: #6c757d;
+  font-size: 14px;
+  color: #6c757d;
+  font-weight: 500;
+  font-style: italic;
+  margin: 0 0 50px;
+}
+#contact .box .input input {
+  width: 550px;
+  height: 70px;
+  margin: 20px 0;
+  border-radius: 6px;
+}
+#contact .box .input input::-moz-placeholder {
+  color: #ced4da;
+  font-weight: 700;
+}
+#contact .box .input input::placeholder {
+  color: #ced4da;
+  font-weight: 700;
+}
+#contact .box .input .message {
+  height: 250px;
+}
+#contact .box .btn {
+  color: #ffffff;
+  background-color: #fecc14;
+  opacity: 60%;
+  padding: 40px 50px;
 }/*# sourceMappingURL=style.css.map */
