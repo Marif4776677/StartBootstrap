@@ -85,7 +85,7 @@ header .menu nav a:hover {
 }
 
 #services {
-  padding: 50px 0;
+  padding: 100px 0;
 }
 #services .textbox h1 {
   font-size: 40px;
@@ -345,26 +345,65 @@ header .menu nav a:hover {
   font-style: italic;
   margin: 0 0 50px;
 }
-#contact .box .input input {
-  width: 550px;
-  height: 70px;
-  margin: 20px 0;
-  border-radius: 6px;
-}
-#contact .box .input input::-moz-placeholder {
-  color: #ced4da;
-  font-weight: 700;
-}
-#contact .box .input input::placeholder {
-  color: #ced4da;
-  font-weight: 700;
-}
-#contact .box .input .message {
-  height: 250px;
-}
 #contact .box .btn {
   color: #ffffff;
   background-color: #fecc14;
   opacity: 60%;
   padding: 40px 50px;
+}
+#contact form {
+  height: 100%;
+}
+#contact form input, #contact form .message {
+  display: block;
+  padding: 1.25rem;
+  width: 100%;
+  border-radius: 6px;
+}
+#contact form input::-moz-placeholder, #contact form .message::-moz-placeholder {
+  color: #ced4da;
+  font-weight: 700;
+}
+#contact form input::placeholder, #contact form .message::placeholder {
+  color: #ced4da;
+  font-weight: 700;
+}
+#contact form .message {
+  height: 100%;
+}
+#contact form .message:hover {
+  cursor: text;
+}
+
+footer .menu {
+  height: 80px;
+}
+footer .menu h1 {
+  font-size: 0.9rem;
+}
+footer .menu a {
+  font-size: 0.9rem;
+  margin-right: 10px;
+  color: #000000;
+  transition: 0.2s;
+}
+footer .menu a:hover {
+  cursor: pointer;
+}
+footer .icon i, footer .iconf i {
+  cursor: pointer;
+  background-color: #212529;
+  color: #fff;
+  font-size: 14px;
+  padding: 14px;
+  border-radius: 50%;
+  margin: 0px 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+footer .icon i:hover, footer .iconf i:hover {
+  opacity: 70%;
+}
+footer .icon .iconf, footer .iconf .iconf {
+  padding: 14px 16px 14px 16px;
 }/*# sourceMappingURL=style.css.map */
