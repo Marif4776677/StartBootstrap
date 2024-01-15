@@ -16,21 +16,19 @@ a:hover {
   width: 100%;
 }
 
-header {
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
 header .menu {
-  position: absolute;
+  align-items: center;
+  padding: 0 8vw;
+  position: fixed;
+  z-index: 1;
   width: 100%;
-  right: 0%;
-  padding: 0 120px;
-  background-color: #212529;
   height: 80px;
+  left: 0%;
+  background-color: #212529;
 }
 header .menu .imgbox {
   width: 140px;
+  min-width: 140px;
 }
 header .menu nav a {
   font-size: 0.995rem;
@@ -44,17 +42,41 @@ header .menu nav a:hover {
   cursor: pointer;
   color: #ffc800;
 }
+@media (max-width: 992px) {
+  header nav {
+    display: none;
+  }
+  header .menu .btn {
+    display: flex;
+    color: #979d9e;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 6px 12px;
+    border: solid #5a5e65;
+    border-width: 1px;
+    border-radius: 6px;
+  }
+  header .menu .btn h1 {
+    margin-right: 6px;
+  }
+}
+@media (max-width: 280px) {
+  header .menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
 
 #welcome {
   padding: 50px 0;
   background-image: url(../assets/header-bg.jpg);
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
 }
 #welcome .box {
-  height: 700px;
+  padding-top: 12rem;
+  padding-bottom: 6rem;
 }
 #welcome .box h1 {
   color: #ffffff;
