@@ -1,5 +1,6 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
 }
 
 a {
@@ -401,10 +402,10 @@ footer .menu {
   height: 80px;
 }
 footer .menu h1 {
-  font-size: 0.9rem;
+  font-size: 15px;
 }
 footer .menu a {
-  font-size: 0.9rem;
+  font-size: 15px;
   margin-right: 10px;
   color: #000000;
   transition: 0.2s;
