@@ -315,23 +315,18 @@ header .menu nav a:hover {
 #team .box .iconf {
   padding: 14px 16px 14px 16px;
 }
-#team .last {
-  padding: 0 150px;
-}
 #team .last p {
   color: #6c757d;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5;
-  margin: 40px;
+  margin-top: 20px;
 }
 
 #socials {
   padding: 50px 0;
 }
 #socials .imgbox {
-  padding: 0;
-  margin: 0 70px;
   width: 180px;
 }
 #socials .imgbox img {
