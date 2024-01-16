@@ -74,6 +74,7 @@ header .menu nav a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  overflow: hidden;
 }
 #welcome .box {
   padding-top: 200px;
@@ -154,10 +155,16 @@ header .menu nav a:hover {
 #services .col-md-4 .textbox p:hover {
   cursor: text;
 }
+#services .box, #services .textbox {
+  overflow: hidden;
+}
 
 #portfolio {
   background-color: #f8f9fa;
   padding: 100px 0;
+}
+#portfolio .textbox {
+  overflow: hidden;
 }
 #portfolio .textbox h1 {
   font-size: 40px;
