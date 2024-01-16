@@ -269,6 +269,9 @@ header .menu nav a:hover {
   background-color: #f8f9fa;
   padding: 100px 0;
 }
+#team .textbox {
+  overflow: hidden;
+}
 #team .textbox h1 {
   font-size: 40px;
   font-weight: 700;
@@ -283,6 +286,9 @@ header .menu nav a:hover {
   font-weight: 500;
   font-style: italic;
   margin: 0 0 50px;
+}
+#team .box {
+  overflow: hidden;
 }
 #team .box .imgbox {
   width: 220px;
@@ -333,11 +339,11 @@ header .menu nav a:hover {
 #socials {
   padding: 50px 0;
 }
+#socials img {
+  cursor: pointer;
+}
 #socials .imgbox {
   width: 180px;
-}
-#socials .imgbox img {
-  cursor: pointer;
 }
 #socials .facebook {
   width: 150px;
