@@ -330,7 +330,7 @@ header .menu nav a:hover {
 }
 #team .last p {
   color: #6c757d;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.5;
   margin-top: 20px;
@@ -358,6 +358,10 @@ header .menu nav a:hover {
   background-image: url(../assets/map-image.png);
   background-repeat: no-repeat;
   background-position: top;
+  overflow: hidden;
+}
+#contact .box {
+  overflow: hidden;
 }
 #contact .box .textbox h1 {
   color: #ffffff;
@@ -406,8 +410,8 @@ header .menu nav a:hover {
   cursor: text;
 }
 
-footer .menu {
-  height: 80px;
+footer {
+  padding: 20px 0;
 }
 footer .menu h1 {
   font-size: 15px;
