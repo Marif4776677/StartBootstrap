@@ -97,15 +97,18 @@ header .menu nav a:hover {
 }
 #welcome .box .btn {
   border-radius: 8px;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
   color: #ffffff;
-  padding: 20px 40px;
-  background-color: #ffc800;
+  padding: 20px 50px;
+  background-color: #dfb314;
   transition: 0.2s;
 }
 #welcome .box .btn:hover {
   background-color: #d9aa00;
+}
+#welcome .box .btn h5 {
+  cursor: pointer;
 }
 
 #services {
@@ -309,7 +312,7 @@ header .menu nav a:hover {
   line-height: 1.5;
   padding-bottom: 20px;
 }
-#team .box .icon, #team .box .iconf {
+#team .box .icon, #team .box .facebook {
   background-color: #212529;
   color: #fff;
   font-size: 14px;
@@ -319,13 +322,13 @@ header .menu nav a:hover {
   cursor: pointer;
   transition: 0.2s;
 }
-#team .box .icon i, #team .box .iconf i {
+#team .box .icon i, #team .box .facebook i {
   cursor: pointer;
 }
-#team .box .icon:hover, #team .box .iconf:hover {
+#team .box .icon:hover, #team .box .facebook:hover {
   opacity: 70%;
 }
-#team .box .iconf {
+#team .box .facebook {
   padding: 14px 16px 14px 16px;
 }
 #team .last p {
@@ -429,7 +432,7 @@ footer .menu a {
 footer .menu a:hover {
   cursor: pointer;
 }
-footer .icon i, footer .iconf i {
+footer .menu .icon, footer .menu .facebook {
   cursor: pointer;
   background-color: #212529;
   color: #fff;
@@ -440,9 +443,9 @@ footer .icon i, footer .iconf i {
   cursor: pointer;
   transition: 0.2s;
 }
-footer .icon i:hover, footer .iconf i:hover {
+footer .menu .icon:hover, footer .menu .facebook:hover {
   opacity: 70%;
 }
-footer .icon .iconf, footer .iconf .iconf {
+footer .menu .facebook {
   padding: 14px 16px 14px 16px;
 }/*# sourceMappingURL=style.css.map */
