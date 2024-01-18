@@ -225,6 +225,9 @@ header .menu nav a:hover {
 #about {
   padding: 100px 0;
 }
+#about .textbox {
+  overflow: hidden;
+}
 #about .textbox h1 {
   font-size: 48px;
   font-weight: 700;
