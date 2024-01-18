@@ -44,15 +44,28 @@
             color: #ffffff
             font-size: 24px
             font-weight: 700
-    @media (min-width: 992px)
+    @media (min-width: 992px) and (max-width: 1200px)
         .imgbox, .story-box
             width: 150px
             height: 150px
-    @media (min-width: 768px)
+    @media (min-width: 768px) and (max-width: 992px)
         .imgbox, .story-box
             width: 100px
             height: 100px
+        .story-box
+            h4
+                font-size: 16px
+                margin: 0 0 5px 0
     @media (max-width: 768px)
-        .imgbox, .story-box
+        .imgbox,.story-box
             width: 80px
             height: 80px
+        .story-box
+            h4
+                font-size: 12px
+                margin: 0 0 2px 0
+                font-weight: normal
+        .box
+            p
+                margin: 10px 0 20px
+    
