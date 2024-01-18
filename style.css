@@ -240,9 +240,7 @@ header .menu nav a:hover {
   font-style: italic;
   margin: 0 0 50px;
 }
-#about .box .imgbox {
-  position: absolute;
-  left: 48%;
+#about .imgbox {
   width: 170px;
   height: 170px;
   border: solid #e9ecef;
@@ -250,6 +248,7 @@ header .menu nav a:hover {
   border-radius: 100%;
 }
 #about .box .textbox {
+  margin: 0 20px;
   width: 350px;
 }
 #about .box .textbox h2 {
@@ -258,7 +257,9 @@ header .menu nav a:hover {
   line-height: 1.5;
 }
 #about .box .textbox p {
-  font-size: 18px;
+  color: #6c757d;
+  margin: 10px 0 0;
+  font-size: 19px;
   line-height: 1.5;
 }
 
