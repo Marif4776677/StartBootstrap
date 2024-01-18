@@ -226,7 +226,7 @@ header .menu nav a:hover {
   padding: 100px 0;
 }
 #about .textbox h1 {
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 700;
   margin: 0 0 20px;
 }
@@ -234,38 +234,32 @@ header .menu nav a:hover {
   cursor: text;
 }
 #about .textbox h3 {
+  font-size: 18px;
   color: #6c757d;
   font-weight: 400;
   font-style: italic;
   margin: 0 0 50px;
 }
-#about .box {
-  display: flex;
-  align-items: center;
+#about .box .imgbox {
+  position: absolute;
+  left: 48%;
+  width: 170px;
+  height: 170px;
+  border: solid #e9ecef;
+  border-width: 5px;
+  border-radius: 100%;
 }
 #about .box .textbox {
-  width: 400px;
+  width: 350px;
 }
 #about .box .textbox h2 {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 700;
-  margin: 0px 0 10px;
+  line-height: 1.5;
 }
 #about .box .textbox p {
-  color: #6c757d;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 18px;
   line-height: 1.5;
-  padding-bottom: 20px;
-}
-#about .imgbox {
-  margin: 0 40px;
-  width: 150px;
-  height: -moz-fit-content;
-  height: fit-content;
-  border: solid #e9ecef;
-  border-radius: 50%;
-  border-width: 5px;
 }
 
 #team {
