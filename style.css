@@ -276,6 +276,24 @@ header .menu nav a:hover {
   font-size: 24px;
   font-weight: 700;
 }
+@media (min-width: 992px) {
+  #about .imgbox, #about .story-box {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (min-width: 768px) {
+  #about .imgbox, #about .story-box {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 768px) {
+  #about .imgbox, #about .story-box {
+    width: 80px;
+    height: 80px;
+  }
+}
 
 #team {
   background-color: #f8f9fa;
