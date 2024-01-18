@@ -250,8 +250,8 @@ header .menu nav a:hover {
   border-width: 6px;
   border-radius: 100%;
 }
-#about .box .textbox {
-  margin: 0 20px;
+#about .box {
+  padding: 0 20px;
 }
 #about .box .textbox h2 {
   font-size: 28px;
