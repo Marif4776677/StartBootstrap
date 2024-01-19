@@ -244,6 +244,8 @@ header .menu nav a:hover {
   margin: 0 0 50px;
 }
 #about .imgbox {
+  position: absolute;
+  left: 43%;
   width: 170px;
   height: 170px;
   border: solid #e9ecef;
@@ -251,7 +253,11 @@ header .menu nav a:hover {
   border-radius: 100%;
 }
 #about .box {
-  padding: 0 20px;
+  position: relative;
+}
+#about .box .textbox {
+  width: 41%;
+  padding: 0 20px 20px 20px;
 }
 #about .box .textbox h2 {
   font-size: 28px;
@@ -294,18 +300,17 @@ header .menu nav a:hover {
     margin: 0 0 5px 0;
   }
 }
-@media (max-width: 768px) {
-  #about .imgbox, #about .story-box {
+@media (max-width: 767px) {
+  #about .box .imgbox, #about .box .story-box {
     width: 80px;
     height: 80px;
   }
-  #about .story-box h4 {
-    font-size: 12px;
-    margin: 0 0 2px 0;
-    font-weight: normal;
+  #about .box .imgbox {
+    left: 0%;
   }
-  #about .box p {
-    margin: 10px 0 20px;
+  #about .box .textbox {
+    margin-left: 80px;
+    width: 100%;
   }
 }
 
