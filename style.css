@@ -315,9 +315,6 @@ header .menu nav a:hover {
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-  #about .box {
-    margin: 0px;
-  }
   #about .box .imgbox {
     width: 100px;
     height: 100px;
@@ -332,6 +329,9 @@ header .menu nav a:hover {
   }
 }
 @media (max-width: 767px) {
+  #about .box {
+    margin: 0;
+  }
   #about .box .imgbox {
     width: 80px;
     height: 80px;
