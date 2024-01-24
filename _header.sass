@@ -1,5 +1,6 @@
 header
     .menu
+        justify-content: space-between
         align-items: center
         padding: 0 8vw
         position: fixed
@@ -38,7 +39,14 @@ header
                 border-radius: 6px
                 h1
                     margin-right: 6px
+    @media (max-width: 576px) and (min-width: 280px)
+        .menu
+            padding: 0 20px
     @media (max-width: 280px)
         .menu
+            height: 100px
             flex-direction: column
             align-items: flex-start
+            justify-content: center
+            .imgbox
+                margin-bottom: 10px

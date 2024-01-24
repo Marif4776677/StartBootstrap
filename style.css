@@ -18,6 +18,7 @@ a:hover {
 }
 
 header .menu {
+  justify-content: space-between;
   align-items: center;
   padding: 0 8vw;
   position: fixed;
@@ -61,10 +62,20 @@ header .menu nav a:hover {
     margin-right: 6px;
   }
 }
+@media (max-width: 576px) and (min-width: 280px) {
+  header .menu {
+    padding: 0 20px;
+  }
+}
 @media (max-width: 280px) {
   header .menu {
+    height: 100px;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
+  }
+  header .menu .imgbox {
+    margin-bottom: 10px;
   }
 }
 
@@ -178,6 +189,7 @@ header .menu nav a:hover {
   cursor: text;
 }
 #portfolio .textbox h3 {
+  font-size: 18px;
   color: #6c757d;
   font-weight: 400;
   font-style: italic;
@@ -215,11 +227,18 @@ header .menu nav a:hover {
 }
 #portfolio .box .textbox h4 {
   color: #6c757d;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 1.5;
   font-style: italic;
   padding-bottom: 20px;
+}
+@media (max-width: 576px) {
+  #portfolio .box {
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 #about {
@@ -244,6 +263,7 @@ header .menu nav a:hover {
   margin: 0 0 50px;
 }
 #about .box {
+  margin: 50px 0;
   position: relative;
 }
 #about .box .textbox {
@@ -257,7 +277,7 @@ header .menu nav a:hover {
 }
 #about .box .textbox p {
   color: #6c757d;
-  margin: 10px 0 100px;
+  margin: 10px 0;
   font-size: 19px;
   line-height: 1.5;
 }
@@ -295,6 +315,9 @@ header .menu nav a:hover {
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+  #about .box {
+    margin: 0px;
+  }
   #about .box .imgbox {
     width: 100px;
     height: 100px;
@@ -383,11 +406,11 @@ header .menu nav a:hover {
   cursor: pointer;
   transition: 0.2s;
 }
-#team .box .icon i, #team .box .facebook i {
-  cursor: pointer;
-}
 #team .box .icon:hover, #team .box .facebook:hover {
   opacity: 70%;
+}
+#team .box .icon i, #team .box .facebook i {
+  cursor: pointer;
 }
 #team .box .facebook {
   padding: 14px 16px 14px 16px;
@@ -499,7 +522,6 @@ footer .menu a:hover {
   cursor: pointer;
 }
 footer .menu .icon, footer .menu .facebook {
-  cursor: pointer;
   background-color: #212529;
   color: #fff;
   font-size: 14px;
@@ -511,6 +533,9 @@ footer .menu .icon, footer .menu .facebook {
 }
 footer .menu .icon:hover, footer .menu .facebook:hover {
   opacity: 70%;
+}
+footer .menu .icon i, footer .menu .facebook i {
+  cursor: pointer;
 }
 footer .menu .facebook {
   padding: 14px 16px 14px 16px;
