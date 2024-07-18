@@ -79,7 +79,7 @@ header .menu nav a:hover {
 
 #welcome {
   padding: 50px 0;
-  background-image: url("../../../assets/img/portfolio/headerbg.jpg");
+  background-image: url(../assets/img/portfolio/headerbg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
